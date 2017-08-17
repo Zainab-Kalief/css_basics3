@@ -1,0 +1,163 @@
+header{
+  background-color: #205273;
+
+}
+header > p {
+  /*float: right;*/
+  color: white;
+  margin-left: 80%;
+  margin-bottom: 5px;
+  border-top: 15px;
+  border-bottom: 0px;
+  border-color: #205273;
+  border-style: solid;
+}
+header > p a{
+  color: yellow;
+}
+header > img{
+  width: 350px;
+  height: 95px;
+  display: inline-block;
+}
+header > div{
+  display: inline-block;
+  float: right;
+  background-color: grey;
+  margin-right: 10px;
+  width: 300px;
+  height: 55px;
+    border-radius: 10px;
+    border-bottom: 2px black solid;
+    border-right: 2px black solid;
+    position: relative;
+}
+header > div > input{
+  width: 185px;
+height: 50%;
+background-color: white;
+margin-top: 10px;
+margin-left: 30px;
+text-align: center;
+/*When you set the height of the box you have to set the height of the text*/
+line-height: 40px;
+vertical-align: middle;
+}
+header > div > button{
+  width: 40px;
+  height: 37px;
+  border-radius: 5px;
+  border: 2px white solid;
+  color: white;
+  background-color: #205273;
+  position: absolute;
+  top: 10px;
+  left: 230px;
+}
+#nav{
+  background-color: #205273;
+}
+nav{
+  width: 80%;
+  background-color: #356280;
+  border-radius: 5px;
+  border-bottom: 2px black solid;
+  border-right: 2px black solid;
+  text-align: center;
+  margin-left: 100px;
+}
+nav h2{
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+article{
+  background-color: #205273;
+  border-bottom: 3px solid black;
+}
+article > ul{
+  /*background-color: #356280;*/
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: top;
+}
+article ul li {
+  padding: 3px;
+}
+article ul li a{
+  color: white;
+}
+article section {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+
+}
+article section p{
+  width: 80%;
+  overflow: scroll;
+  display: inline-block;
+}
+article section ul{
+  margin-top: 0px;
+  list-style: none;
+}
+article section ul li{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: yellow;
+  padding: 10px;
+}
+#yellow-li{
+  color: white;
+}
+#bottom{
+  margin-left: 70px;
+}
+#bottom-1{
+  border-top: 5px red solid;
+  display: inline-block;
+  width: 45%;
+  /*height: 250px;*/
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  vertical-align: top;
+}
+.bottom-text{
+  width: 300px;
+  overflow: scroll;
+  margin-left: 20%;
+}
+
+#bottom-2{
+  display: inline-block;
+  border-top: 5px red solid;
+  width: 45%;
+  /*height: 250px;*/
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer{
+  background-color: #205273;
+  text-align: center;
+  color: white;
+}
+footer h3{
+  display: inline-block;
+  font-weight: 100;
+margin-left: 30px;
+margin-right: 30px;
+padding-top: 10px;
+}
+footer p{
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
